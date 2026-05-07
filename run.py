@@ -36,34 +36,6 @@ def run(argparser):
     
     f = nn.ELU()
     
-    #niters = 1000
-    
-    #nLayers_inf = 2
-    #nLayers_gen = 2
-    #nHeads = 10
-    #embedDim = 100
-    #f = nn.ELU()
-    #Dr = 1
-    #Dy = L + Dr
-    #neigh_drop = 0#.2
-    #neigh_drop_m = 0#.2
-    #neigh_drop_n = 0#.2
-    #layer_drop = 0#.2
-    
-    #batch_size = 1
-    #subsamp = .5
-    
-    #batch_size_train = batch_size
-    #batch_size_eval = 5
-    #n_val_samps = 1
-    
-    #delta = .01
-    #beta = 1
-    
-    #lowmem = False
-    
-    #val_perc = .1
-    
     data, truths = get_data(dataset)
     L, M, N = data.shape
     
